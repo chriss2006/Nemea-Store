@@ -23,8 +23,6 @@
 	};
 	tinyslider();
 
-	
-
 
 	var sitePlusMinus = function() {
 
@@ -71,3 +69,9 @@
 
 
 })()
+
+function cambiarImagen(img) {
+	document.getElementById('imgPrincipal').src = img.src;//producto
+}
+
+
